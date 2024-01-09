@@ -1,0 +1,10 @@
+.button {
+  display: flex;
+  background-color: azure;
+  border: 2px solid rgb(35, 35, 35);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: bisque;
+}
