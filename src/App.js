@@ -43,7 +43,6 @@ const App = () => {
         setMode(MODES.MOVE);
         break;
     }
-    console.log(mode);
   }, [mode]);
 
   const handleSetMarkers = useCallback(
