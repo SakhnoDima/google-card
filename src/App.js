@@ -48,7 +48,6 @@ const App = () => {
   const handleSetMarkers = useCallback(
     (coordinates) => {
       setMarkers([...markers, coordinates]);
-      console.log(markers);
     },
     [markers]
   );
